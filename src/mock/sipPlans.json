@@ -1,0 +1,59 @@
+{
+  "activePlans": [
+    {
+      "id": "sip_001",
+      "name": "College Fund",
+      "amount": 100.00,
+      "frequency": "monthly",
+      "startDate": "2024-01-15",
+      "targetAmount": 10000.00,
+      "currentValue": 1850.50,
+      "returns": 12.5,
+      "risk": "low",
+      "category": "education",
+      "nextPayment": "2024-12-15"
+    },
+    {
+      "id": "sip_002",
+      "name": "Emergency Fund",
+      "amount": 50.00,
+      "frequency": "monthly",
+      "startDate": "2024-03-01",
+      "targetAmount": 5000.00,
+      "currentValue": 580.25,
+      "returns": 8.2,
+      "risk": "low",
+      "category": "savings",
+      "nextPayment": "2024-12-01"
+    }
+  ],
+  "availablePlans": [
+    {
+      "id": "sip_003",
+      "name": "Tech Stock Portfolio",
+      "minAmount": 25.00,
+      "expectedReturns": 15.8,
+      "risk": "medium",
+      "category": "stocks",
+      "description": "Invest in leading technology companies"
+    },
+    {
+      "id": "sip_004",
+      "name": "Green Energy Fund",
+      "minAmount": 50.00,
+      "expectedReturns": 14.2,
+      "risk": "medium",
+      "category": "sustainability",
+      "description": "Support renewable energy initiatives"
+    },
+    {
+      "id": "sip_005",
+      "name": "Balanced Growth",
+      "minAmount": 30.00,
+      "expectedReturns": 10.5,
+      "risk": "low",
+      "category": "balanced",
+      "description": "Mix of stocks and bonds for steady growth"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "user_001",
+  "name": "Alex Johnson",
+  "age": 17,
+  "accountType": "teen",
+  "email": "alex.johnson@example.com",
+  "phone": "+1234567890",
+  "kycStatus": "verified",
+  "profilePicture": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alex",
+  "parentLinked": true,
+  "parentName": "Sarah Johnson",
+  "parentEmail": "sarah.johnson@example.com",
+  "joinedDate": "2024-01-15",
+  "subscription": {
+    "tier": "premium",
+    "startDate": "2024-01-15",
+    "renewalDate": "2025-01-15",
+    "price": 4.99
+  }
+}

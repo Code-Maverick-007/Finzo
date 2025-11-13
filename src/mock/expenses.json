@@ -1,0 +1,65 @@
+{
+  "monthlyBudget": 500.00,
+  "spent": 385.75,
+  "remaining": 114.25,
+  "categories": [
+    {
+      "name": "Food & Dining",
+      "budget": 150.00,
+      "spent": 125.50,
+      "icon": "utensils",
+      "color": "#FF6B6B"
+    },
+    {
+      "name": "Entertainment",
+      "budget": 100.00,
+      "spent": 85.00,
+      "icon": "film",
+      "color": "#4ECDC4"
+    },
+    {
+      "name": "Education",
+      "budget": 150.00,
+      "spent": 89.99,
+      "icon": "book",
+      "color": "#6C63FF"
+    },
+    {
+      "name": "Transportation",
+      "budget": 80.00,
+      "spent": 65.26,
+      "icon": "car",
+      "color": "#95E1D3"
+    },
+    {
+      "name": "Shopping",
+      "budget": 20.00,
+      "spent": 20.00,
+      "icon": "shopping-bag",
+      "color": "#FFB84D"
+    }
+  ],
+  "recentExpenses": [
+    {
+      "id": "exp_001",
+      "amount": 45.25,
+      "category": "Food & Dining",
+      "description": "Coffee Shop",
+      "date": "2024-11-09T14:20:00Z"
+    },
+    {
+      "id": "exp_002",
+      "amount": 89.99,
+      "category": "Education",
+      "description": "Online Course",
+      "date": "2024-11-07T16:45:00Z"
+    },
+    {
+      "id": "exp_003",
+      "amount": 25.00,
+      "category": "Entertainment",
+      "description": "Movie Tickets",
+      "date": "2024-11-05T19:00:00Z"
+    }
+  ]
+}

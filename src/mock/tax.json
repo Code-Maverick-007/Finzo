@@ -1,0 +1,62 @@
+{
+  "currentYear": {
+    "year": 2024,
+    "income": 7800.00,
+    "deductions": 1200.00,
+    "taxableIncome": 6600.00,
+    "estimatedTax": 0,
+    "taxSaved": 180.00
+  },
+  "futureProjection": {
+    "year": 2030,
+    "estimatedIncome": 45000.00,
+    "estimatedTax": 4500.00,
+    "bracket": "15%"
+  },
+  "learningModules": [
+    {
+      "id": "learn_001",
+      "title": "What is Income Tax?",
+      "description": "Learn the basics of income tax and why it matters",
+      "duration": "5 min",
+      "completed": true,
+      "points": 50
+    },
+    {
+      "id": "learn_002",
+      "title": "Tax Deductions for Students",
+      "description": "Discover deductions you can claim as a student",
+      "duration": "7 min",
+      "completed": true,
+      "points": 75
+    },
+    {
+      "id": "learn_003",
+      "title": "Investment Tax Benefits",
+      "description": "How investments can reduce your tax liability",
+      "duration": "10 min",
+      "completed": false,
+      "points": 100
+    },
+    {
+      "id": "learn_004",
+      "title": "Filing Your First Tax Return",
+      "description": "Step-by-step guide to filing taxes",
+      "duration": "15 min",
+      "completed": false,
+      "points": 150
+    }
+  ],
+  "deductions": [
+    {
+      "category": "Education",
+      "amount": 800.00,
+      "section": "80C"
+    },
+    {
+      "category": "Health Insurance",
+      "amount": 400.00,
+      "section": "80D"
+    }
+  ]
+}

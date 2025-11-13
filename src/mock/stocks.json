@@ -1,0 +1,57 @@
+{
+  "portfolio": {
+    "totalValue": 2430.75,
+    "todayChange": 45.30,
+    "todayChangePercent": 1.9,
+    "holdings": [
+      {
+        "id": "stock_001",
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "quantity": 5,
+        "avgPrice": 150.00,
+        "currentPrice": 175.50,
+        "totalValue": 877.50,
+        "change": 127.50,
+        "changePercent": 17.0
+      },
+      {
+        "id": "stock_002",
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "quantity": 10,
+        "avgPrice": 130.00,
+        "currentPrice": 142.25,
+        "totalValue": 1422.50,
+        "change": 122.50,
+        "changePercent": 9.4
+      }
+    ]
+  },
+  "trending": [
+    {
+      "symbol": "TSLA",
+      "name": "Tesla Inc.",
+      "price": 245.60,
+      "change": 5.8,
+      "changePercent": 2.4,
+      "marketCap": "780B"
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft Corp.",
+      "price": 380.25,
+      "change": -2.5,
+      "changePercent": -0.7,
+      "marketCap": "2.8T"
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corp.",
+      "price": 495.30,
+      "change": 12.4,
+      "changePercent": 2.6,
+      "marketCap": "1.2T"
+    }
+  ]
+}

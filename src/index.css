@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* FINZO DESIGN SYSTEM 2.0 — PREMIUM FINTECH COLORS (All in HSL) */
+
+@layer base {
+  :root {
+    /* Core colors */
+    --background: 250 100% 99%;
+    --foreground: 244 30% 18%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 244 30% 18%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 244 30% 18%;
+
+    /* Primary brand color — softer purple */
+    --primary: 255 85% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary subtle tint */
+    --secondary: 260 55% 95%;
+    --secondary-foreground: 244 30% 18%;
+
+    /* Muted / subtle text */
+    --muted: 260 38% 96%;
+    --muted-foreground: 244 12% 45%;
+
+    /* Accent — premium violet */
+    --accent: 265 90% 68%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Functional colors */
+    --success: 142 72% 40%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+
+    --destructive: 0 80% 58%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 250 28% 88%;
+    --input: 250 28% 88%;
+    --ring: 255 85% 60%;
+
+    --radius: 1rem;
+
+    /* Premium gradients */
+    --gradient-primary: linear-gradient(
+      135deg,
+      hsl(255, 85%, 60%),
+      hsl(265, 90%, 68%)
+    );
+
+    --gradient-card: linear-gradient(
+      135deg,
+      hsl(0, 0%, 100%),
+      hsl(260, 100%, 98%)
+    );
+
+    --gradient-success: linear-gradient(
+      135deg,
+      hsl(142, 72%, 40%),
+      hsl(158, 62%, 48%)
+    );
+
+    /* Soft shadows */
+    --shadow-sm: 0 1px 2px hsl(255 85% 60% / 0.05);
+    --shadow-md: 0 4px 6px hsl(255 85% 60% / 0.10);
+    --shadow-lg: 0 10px 18px hsl(255 85% 60% / 0.12);
+    --shadow-glow: 0 0 22px hsl(255 85% 60% / 0.35);
+  }
+
+  /* DARK MODE — Ultra clean and premium */
+  .dark {
+    --background: 250 30% 10%;
+    --foreground: 250 100% 98%;
+
+    --card: 250 25% 14%;
+    --card-foreground: 250 100% 98%;
+
+    --popover: 250 25% 14%;
+    --popover-foreground: 250 100% 98%;
+
+    --primary: 255 85% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 250 22% 18%;
+    --secondary-foreground: 250 100% 98%;
+
+    --muted: 250 22% 18%;
+    --muted-foreground: 250 40% 75%;
+
+    --accent: 265 90% 68%;
+    --accent-foreground: 0 0% 100%;
+
+    --success: 142 72% 40%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+
+    --destructive: 0 80% 58%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 250 20% 22%;
+    --input: 250 20% 22%;
+    --ring: 255 85% 60%;
+
+    --gradient-primary: linear-gradient(
+      135deg,
+      hsl(255, 85%, 60%),
+      hsl(265, 90%, 68%)
+    );
+
+    --gradient-card: linear-gradient(
+      135deg,
+      hsl(250, 25%, 14%),
+      hsl(250, 20%, 16%)
+    );
+
+    --gradient-success: linear-gradient(
+      135deg,
+      hsl(142, 72%, 40%),
+      hsl(158, 62%, 48%)
+    );
+
+    --shadow-sm: 0 1px 2px hsl(255 85% 60% / 0.10);
+    --shadow-md: 0 4px 6px hsl(255 85% 60% / 0.18);
+    --shadow-lg: 0 10px 18px hsl(255 85% 60% / 0.20);
+    --shadow-glow: 0 0 26px hsl(255 85% 60% / 0.40);
+  }
+}
+
+/* Base typography and borders */
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight;
+  }
+}
+
+/* Utility Classes */
+@layer utilities {
+  .gradient-primary {
+    background: var(--gradient-primary);
+  }
+
+  .gradient-card {
+    background: var(--gradient-card);
+  }
+
+  .gradient-success {
+    background: var(--gradient-success);
+  }
+
+  .glass {
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+  }
+
+  .dark .glass {
+    background: rgba(25, 25, 45, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+}

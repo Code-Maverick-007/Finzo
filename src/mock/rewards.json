@@ -1,0 +1,100 @@
+{
+  "points": 1250,
+  "level": "Silver",
+  "nextLevel": "Gold",
+  "pointsToNextLevel": 750,
+  "dailyStreak": 12,
+  "referralPoints": 200,
+  "availableRewards": [
+    {
+      "id": "reward_001",
+      "name": "₹50 Cashback",
+      "points": 500,
+      "type": "cashback",
+      "available": true
+    },
+    {
+      "id": "reward_002",
+      "name": "Amazon Gift Card ₹100",
+      "points": 1000,
+      "type": "gift-card",
+      "available": true
+    },
+    {
+      "id": "reward_003",
+      "name": "Netflix 1 Month",
+      "points": 1500,
+      "type": "subscription",
+      "available": false
+    }
+  ],
+  "challenges": [
+    {
+      "id": "challenge_001",
+      "title": "7-Day Saving Streak",
+      "description": "Save money for 7 consecutive days",
+      "progress": 5,
+      "target": 7,
+      "reward": 100,
+      "status": "active"
+    },
+    {
+      "id": "challenge_002",
+      "title": "First Investment",
+      "description": "Start your first SIP plan",
+      "progress": 1,
+      "target": 1,
+      "reward": 200,
+      "status": "completed"
+    },
+    {
+      "id": "challenge_003",
+      "title": "Budget Master",
+      "description": "Stay within budget for a month",
+      "progress": 10,
+      "target": 30,
+      "reward": 300,
+      "status": "active"
+    }
+  ],
+  "milestones": [
+    {
+      "id": "milestone_001",
+      "title": "First ₹1000 Saved",
+      "achieved": true,
+      "date": "2024-02-15",
+      "reward": 100
+    },
+    {
+      "id": "milestone_002",
+      "title": "3 Months Active",
+      "achieved": true,
+      "date": "2024-04-15",
+      "reward": 150
+    },
+    {
+      "id": "milestone_003",
+      "title": "₹5000 Invested",
+      "achieved": false,
+      "progress": 2430.75,
+      "target": 5000,
+      "reward": 250
+    }
+  ],
+  "couponCodes": [
+    {
+      "id": "coupon_001",
+      "code": "WELCOME20",
+      "description": "20% off on first investment",
+      "discount": 20,
+      "validUntil": "2024-12-31"
+    },
+    {
+      "id": "coupon_002",
+      "code": "SAVE50",
+      "description": "Flat ₹50 off on savings deposit",
+      "discount": 50,
+      "validUntil": "2024-12-31"
+    }
+  ]
+}
